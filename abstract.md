@@ -1,0 +1,8 @@
+<br>
+
+Changes in macroeconomic factors can have a profound impact on the stock market. There is a large body of economics research that attempts to quantify the relationship between macroeconomic variables and stock prices. These methods often use time-series approaches, e.g., autoregressive integrated moving average (ARIMA) models. These methods are somewhat limiting since they can have: (a) limited predictive power and (b) restrictive assumptions. 
+
+To address these limitations, we propose an intuitive three-phase procedure for stock market prediction. Phase I, an automated approach for acquiring the monthly values for 23 potentially-relevant macro-economic factors is presented. Phase II utilizes several data mining methods, with a modified leave-one-out cross validation strategy to select the most relevant macro-economic predictors for a given stock index. Phase III, we use four ensemble methods for predicting the one-month ahead stock and sector index prices. 
+
+To evaluate the effectiveness of our approach, we collected the monthly values for 23 potentially-relevant macroeconomic factors from 01/1992 to 10/2016. We trained our models to predict four major U.S. indices (DJI, NYA, IXIC, GSPC) and nine major sector indices. To test the performance of our model, we examined the one-month ahead prediction for these 13 indices for 2015-2016. Our models outpeformed the reported results in the literature, with a mean absolute percent error (MAPE) of < 3.4% for the four major stock indices and < 2.9% for the nine sector indices. Our code is made available online for investors and researchers.
+ 
